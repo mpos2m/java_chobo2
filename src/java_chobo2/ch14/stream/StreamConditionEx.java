@@ -32,7 +32,7 @@ public class StreamConditionEx {
 		
 		result = list.parallelStream().filter(s -> s.getTotalScore() <= 100).findAny();
 		System.out.println(result);
-		
+		System.out.println();
 		
 	}
 
